@@ -1,0 +1,40 @@
+{
+  "name": "expressis",
+  "description": "",
+  "keywords": ["expressis"],
+  "licenses": [],
+  "homepage": "",
+  "version": "0.0.1",
+  "main": "./index.js",
+  "author": "",
+  "repository": {
+},
+  "directories": {
+    "lib": "lib",
+    "tests": "tests"
+  },
+  "scripts": {"test": "nodeunit tests/test.js"},
+  "engines": {"node": ">= 0.10"},
+  "dependencies": {
+    "express" : "3.x",
+    "body-parser" : "~1.0.2",
+    "compression" : "~1.0.1",
+    "cookie-session" : "~1.0.1",
+    "cookie-parser" : "~1.0.1",
+    "morgan" : "~1.0.0",
+    "express-session" : "~1.0.3",
+    "static-favicon" : "~1.0.2",
+    "method-override" : "~1.0.0",
+    "csurf" : "~1.1.0",
+    "errorhandler" : "~1.0.0",
+    "response-time" : "~1.0.0",
+    "connect-multiparty" : "~1.0.3",
+    "express-useragent" : "~0.1.0",
+    "vhost" : "~1.0.0"
+  },
+  "devDependencies": {
+    "nodeunit": ">=0.5.4"
+  },
+  "optionalDependencies": {
+  }
+}
