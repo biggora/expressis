@@ -44,7 +44,7 @@
         "node": ">= 0.10"
     },
     "dependencies": {
-        "express": ">=3.5",
+        "express": ">=4.0",
         "mime": "~1.2.11",
         "methods": "~0.1.0",
         "qs": "~0.6.6",
