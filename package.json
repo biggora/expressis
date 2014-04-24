@@ -36,7 +36,7 @@
     },
     "bugs": {
         "url": "https://github.com/biggora/expressis/issues"
-    }
+    },
     "scripts": {
         "test": "nodeunit tests/test.js"
     },
@@ -44,7 +44,14 @@
         "node": ">= 0.10"
     },
     "dependencies": {
-        "express": ">=3.0",
+        "express": ">=3.5",
+        "mime": "~1.2.11",
+        "methods": "~0.1.0",
+        "qs": "~0.6.6",
+        "bytes": "~0.2.1",
+        "buffer-crc32": "~0.2.1",
+        "debug" : "~0.8.1",
+        "cookie-signature" : "~1.0.3",
         "body-parser": "~1.0.2",
         "compression": "~1.0.1",
         "cookie-session": "~1.0.1",
@@ -58,6 +65,8 @@
         "response-time": "~1.0.0",
         "connect-multiparty": "~1.0.3",
         "express-useragent": "~0.1.0",
+        "connect-flash": "~0.1.1",
+        "express-params": "~0.0.3",
         "vhost": "~1.0.0"
     },
     "devDependencies": {

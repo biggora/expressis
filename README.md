@@ -58,6 +58,7 @@ These middleware and libraries are included:
   - expressis.useragent() [express-useragent](https://github.com/biggora/express-useragent)
   - expressis.vhost() [vhost](https://github.com/expressjs/vhost)
   - expressis.basicAuth()
+  - app.param() [express-params](https://github.com/visionmedia/express-params)
 
 ## More Information
 
