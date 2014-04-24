@@ -1,3 +1,6 @@
+[![Dependency Status](https://gemnasium.com/biggora/expressis.png)](https://gemnasium.com/biggora/expressis)
+[![NPM version](https://badge.fury.io/js/expressis.png)](http://badge.fury.io/js/expressis)
+
 expressis
 =========
 
@@ -7,10 +10,10 @@ Fast, unopinionated, minimalist web framework for NodeJS.
 var expressis = require('expressis');
 var app = expressis();
 
-app.use(express.methodOverride());
-app.use(express.bodyParser());
-app.use(express.static(__dirname + '/public'));
-app.use(express.errorHandler({ dumpExceptions: true, showStack: true }));
+app.use(expressis.methodOverride());
+app.use(expressis.bodyParser());
+app.use(expressis.static(__dirname + '/public'));
+app.use(expressis.errorHandler({ dumpExceptions: true, showStack: true }));
 
 app.get('/', function(req, res){
   res.send('hello world');
@@ -69,3 +72,5 @@ These middleware and libraries are included:
   * Visit the [Wiki](http://github.com/visionmedia/express/wiki)
   * [Русскоязычная документация](http://jsman.ru/express/)
   * Run express examples [online](https://runnable.com/express)
+
+[![Analytics](https://ga-beacon.appspot.com/UA-22788134-5/expressis/readme)](https://github.com/igrigorik/ga-beacon) [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/biggora/expressis/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
